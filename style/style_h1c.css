@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 150px;
+    background-color: blue;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+main section{
+    width: 100%;
+    height: 300px;
+    background-color: #AB2849;
+    margin-bottom: 30px;
+}
+
+main aside{
+    width: 75%;
+    height: 720px;
+}
+
+main aside section{
+    height: 150px;
+    margin-bottom: 30px;
+    background-color: #AB2849;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #AB2849;
+}
